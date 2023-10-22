@@ -1,0 +1,30 @@
+{% extends 'layout/base.html' %}
+{% load static %}
+
+
+{% block title %}
+    
+{% endblock title %}
+
+
+{% block head %}
+ <style>
+
+ </style>   
+{% endblock head %}
+
+
+
+{% block content %}
+<!-- # .container>row>.col-lg-9+.col-lg-3 -->
+   <div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+            {% include 'partials/article_form.html' %}
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+   </div>
+{% endblock content %}
+    
+    
